@@ -1,6 +1,6 @@
 @charset "UTF-8";
 div {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* font-size: 1vw; */
 }
 /*!
@@ -572,10 +572,22 @@ progress {
 .list-inline {
   padding-left: 0;
   list-style: none;
+  margin: 0;
+  top: 0%;
+  padding: 0;
+  /* vertical-align: middle; */
+  /* height:0rem; */
+  /* vertical-align: text-top; */
 }
 
 .list-inline-item {
   display: inline-block;
+  /* border: 1px solid blue; */
+  top: 0%;
+  margin: 0;
+  padding: 0;
+  /* height: 1rem; */
+  /* vertical-align: text-top; */
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -11340,6 +11352,10 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+}
+
+.lower-case {
+  text-transform:none;
 }
 
 #sideNav {
